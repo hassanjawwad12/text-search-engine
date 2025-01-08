@@ -43,6 +43,7 @@ func main() {
 
 	for _, id := range matchedIds {
 		doc := docs[id]
-		log.Printf("%d\t%s\n", id, doc.Text)
+		log.Printf("Id: %d", id)
+		log.Printf("The line is: %s", doc.Text)
 	}
 }
