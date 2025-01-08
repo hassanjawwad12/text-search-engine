@@ -3,9 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	utils "github.com/hassanjawwad12/text-search-engine/utils"
 	"log"
 	"time"
+
+	utils "github.com/hassanjawwad12/text-search-engine/utils"
 )
 
 func main() {
@@ -44,5 +45,4 @@ func main() {
 		doc := docs[id]
 		log.Printf("%d\t%s\n", id, doc.Text)
 	}
-
 }
